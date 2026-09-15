@@ -1063,10 +1063,13 @@ def clicked(x,y):
          tap = False 
 
      if checker != 1:
+      print(checker)
+      print(b_menu_on)
+      print(size_menu_on)
+      print(m_open)
       if b_menu_on == 2 and y > -150 and size_menu_on != 2:
        if m_open == False:
         if tap == False:
-         if already_drawn == False:
           tap = True
           movedx.append(x)
           movedy.append(y)
@@ -1075,8 +1078,7 @@ def clicked(x,y):
           print("you clicked at")
           print(int(x),int(y))
           tap = False
-       else:
-         already_drawn = False
+
        
      if b_menu_on != 2 and m_open == False and size_menu_on != 2:
        if tap == False:
@@ -1178,7 +1180,6 @@ def clicked(x,y):
       if b_menu_on == 2 and y > -250 and size_menu_on != 2:
        if m_open == False:
         if tap == False:
-         if already_drawn == False:
           tap = True
           movedx.append(x)
           movedy.append(y)
@@ -1187,8 +1188,6 @@ def clicked(x,y):
           print("you clicked at")
           print(int(x),int(y))
           tap = False
-       else:
-         already_drawn = False
        
     if b_menu_on != 2 and m_open == False and size_menu_on != 2:
        if tap == False:
@@ -1282,7 +1281,6 @@ def clicked(x,y):
       if b_menu_on == 2 and y > -250 and size_menu_on != 2:
        if m_open == False:
         if tap == False:
-         if already_drawn == False:
           tap = True
           movedx.append(x)
           movedy.append(y)
@@ -1291,8 +1289,6 @@ def clicked(x,y):
           print("you clicked at")
           print(int(x),int(y))
           tap = False
-       else:
-         already_drawn = False
        
     if b_menu_on != 2 and m_open == False and size_menu_on != 2:
        if tap == False:
