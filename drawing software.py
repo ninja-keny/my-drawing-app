@@ -1061,7 +1061,7 @@ def clicked(x,y):
          print(int(x),int(y))
          tap = False 
 
-     if checker != 1
+     if checker != 1:
       if b_menu_on == 2 and y > -150 and size_menu_on != 2:
        if m_open == False:
         if tap == False:
